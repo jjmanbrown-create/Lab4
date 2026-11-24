@@ -1,0 +1,68 @@
+CISC 230 (Prof. Akram)
+Lab Number _____4________
+Student Name: ___Jalen Brown______________
+Honor Code and Reflection Statement:
+By placing my initials below, I affirm that I have completed all parts of this assignment strictly
+adhering to the academic integrity guidelines outlined in the course syllabus and lab policy.
+Specifically, I confirm that:
+1. I did not receive unauthorized assistance from anyone other than the course instructor
+(Prof. Akram).
+2. I did not assist anyone else on this assignment.
+3. I did not seek or use help from any AI tools, online sources, or other platforms.
+Time spent on the assignment: ______________
+My impressions of the assignment:
+• Difficulty (1-5): ______________
+• Enjoyment (1-5): ______________
+• Usefulness (1-5): ______________
+Further comments and feedback: ______________
+Your initials: ___JB_____
+
+Task1 questions:
+	1. The methods that appear are the main, processBill, calculateTotal
+and finally the calculateGratuity method. Starting with main, each method
+is called in one another.
+	2. Step over skips the next method being called in the order. For example,
+processBill goes straight to caluculateGratuity instead of calculateTotal
+as well.
+	3. You should invoke the methods because it keeps the same logic. If you
+do two duplicate calculations this is repetitive and makes the code work
+harder trying to figure out when to use each calculation.
+	4. A parameter is a variable that must be given a value. A local variable
+is a variable that is assigned a value inside the function. For example, Scanner
+scan is a local variable because it is assigned a value while already being in
+a function. Double a from my calculateGratuity method is a parameter, because
+it is not inside the body of the function and has not yet been assigned a value.
+	5. CalculateGratutity is called into calculateTotal which is then called into my
+printReciept method using the format class to display the value with 2 decimals.
+	6. The returned value from calculateTotal would then be lost because the method 
+would no longer have a return type. The calculation done in the method would then
+never be used.
+
+Task2 questions: 
+1. It distinguishes them by looking at what is in their parameters.
+If the parameters are different then java allows you to overload the
+methods with the same name.
+2. No, because it is the method name and parameters that are a method's
+signature.
+3. You could possibly use an if/else statement to represent the 
+different printing types.
+
+Task3 questions:
+1. Compiler sees the object you are creating and then matches those parameter values
+with one of the constructors in the class. It would not compile because I never
+created a constructor that just accepts one string.
+2. Because printFitnessReport was never given any values to pass in
+the parameters. Since it was never given any values we can fill it
+with values the values given in the object we created.
+3. Instance variable is a variable declared outside of a method/constructor
+they are not given values and can be assigned values once used in the method.
+Local variable is a variable declared in the method and once given a value the
+value will remain unless later changed.
+
+Task4 questions:
+1. If the instance variables were not private they could be accessed
+and changed whenever. Having them be private allows them to stay the 
+same and only change through methods, which is required for the lab.
+
+2. They maintain independent information by being new objects that
+were created in the main. This was if you change one it won't affect the other.
